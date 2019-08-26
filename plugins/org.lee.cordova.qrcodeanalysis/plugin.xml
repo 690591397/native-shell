@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="org.lee.cordova.qrcodeanalysis" version="1.0.0" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>qrcodeanalysis</name>
+    <js-module name="qrcodeanalysis" src="www/qrcodeanalysis.js">
+        <clobbers target="cordova.plugins.qrcodeanalysis" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="qrcodeanalysis">
+                <param name="android-package" value="org.lee.cordova.qrcodeanalysis.qrcodeanalysis" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml" />
+        <framework src="com.android.support:appcompat-v7:27.1.1" />
+        <framework custom="true" src="src/android/qrcodeanalysis.gradle" type="gradleReference" />
+        <framework src="com.yanzhenjie:permission:2.0.0-rc4" />
+        <lib-file src="src/android/zxinglibrary-debug.aar" />
+        <source-file src="src/android/qrcodeanalysis.java" target-dir="src/org/lee/cordova/qrcodeanalysis/qrcodeanalysis" />
+    </platform>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="qrcodeanalysis">
+                <param name="ios-package" value="qrcodeanalysis" />
+            </feature>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+          <string>App需要您的同意,才能访问相册</string>
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+          <string>App需要您的同意,才能访问相机</string>
+        </config-file>
+        <source-file src="src/ios/qrcodeanalysis.m" />
+        <header-file src="src/ios/scan/BWQRScanMaskView.h" />
+        <source-file src="src/ios/scan/BWQRScanMaskView.m" />
+        <header-file src="src/ios/scan/BWQRScanViewController.h" />
+        <source-file src="src/ios/scan/BWQRScanViewController.m" />
+        <header-file src="src/ios/scan/GTMBase64.h" />
+        <source-file src="src/ios/scan/GTMBase64.m" />
+        <header-file src="src/ios/scan/GTMDefines.h" />
+        <resource-file src="src/ios/scan/img/scanLine.png"/>
+        <resource-file src="src/ios/scan/img/scanLine@2x.png"/>
+        <resource-file src="src/ios/scan/img/scanLine@3x.png"/>
+        <resource-file src="src/ios/scan/img/scanWindow.png"/>
+        <resource-file src="src/ios/scan/img/scanWindow@2x.png"/>
+        <resource-file src="src/ios/scan/img/scanWindow@3x.png"/>
+        <resource-file src="src/ios/scan/img/translucentBar.png"/>
+        <resource-file src="src/ios/scan/img/translucentBar@2x.png"/>
+        <resource-file src="src/ios/scan/img/translucentBar@3x.png"/>
+        <resource-file src="src/ios/scan/img/light_icon.png"/>
+        <resource-file src="src/ios/scan/img/drak_icon.png"/>
+    </platform>
+</plugin>

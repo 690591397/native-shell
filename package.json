@@ -1,0 +1,50 @@
+{
+    "name": "helloworld",
+    "displayName": "HelloCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "awsca": "file:../plugin/awsca",
+        "copy.inappbrowser": "^3.0.0",
+        "copy.themeablebrowser": "^0.2.17",
+        "cordova-android": "^7.0.0",
+        "cordova-ios": "^4.5.5",
+        "cordova-plugin-backbutton": "^0.3.0",
+        "cordova-plugin-camera": "^4.1.0",
+        "cordova-plugin-inappbrowser": "~3.0.0",
+        "cordova-plugin-splashscreen": "^5.0.3",
+        "cordova-plugin-statusbar": "^2.4.3",
+        "cordova-plugin-themeablebrowser": "~0.2.17",
+        "cordova-plugin-whitelist": "^1.3.4",
+        "cordova-useragent": "git+https://github.com/LouisT/cordova-useragent.git",
+        "im.ltdev.cordova.UserAgent": "https://github.com/LouisT/cordova-useragent",
+        "org.lee.cordova.qrcodeanalysis": "~1.0.0",
+        "qrcodeanalysis": "^1.0.0"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-camera": {
+                "ANDROID_SUPPORT_V4_VERSION": "27.+"
+            },
+            "cordova-plugin-backbutton": {},
+            "org.lee.cordova.qrcodeanalysis": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-statusbar": {},
+            "im.ltdev.cordova.UserAgent": {},
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-themeablebrowser": {},
+            "awsca": {}
+        },
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    }
+}

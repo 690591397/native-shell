@@ -1,0 +1,90 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@4.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-backbutton": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-backbutton"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "org.lee.cordova.qrcodeanalysis": {
+    "source": {
+      "type": "registry",
+      "id": "qrcodeanalysis"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@5.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.4.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "im.ltdev.cordova.UserAgent": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/LouisT/cordova-useragent"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "copy.inappbrowser@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-themeablebrowser": {
+    "source": {
+      "type": "registry",
+      "id": "copy.themeablebrowser"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "aws-camera-album": {
+    "source": {
+      "type": "local",
+      "path": "/Users/lizhaowen/work/native-shell/node_modules/aws-camera-album"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "awsca": {
+    "source": {
+      "type": "local",
+      "path": "/Users/lizhaowen/work/native-shell/node_modules/awsca"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

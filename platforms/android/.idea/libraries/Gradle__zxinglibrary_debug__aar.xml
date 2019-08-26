@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: zxinglibrary-debug:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/jars/libs/core-3.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

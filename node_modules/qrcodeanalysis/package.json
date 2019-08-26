@@ -1,0 +1,39 @@
+{
+  "_from": "qrcodeanalysis",
+  "_id": "qrcodeanalysis@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-R82qPRSI02rz31AC3Dh/sBDtW07sarbTLwfbmbbQeazfUaH+2PW1mG3aQZiOyY4uxbo5zYtNzTXJzh0Sr0xeEQ==",
+  "_location": "/qrcodeanalysis",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "qrcodeanalysis",
+    "name": "qrcodeanalysis",
+    "escapedName": "qrcodeanalysis",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/qrcodeanalysis/-/qrcodeanalysis-1.0.0.tgz",
+  "_shasum": "b457119b134a85b8c346e7e6dec3421772b4689e",
+  "_spec": "qrcodeanalysis",
+  "_where": "/Users/lizhaowen/work/native-shell",
+  "author": {
+    "name": "lee zhaowen"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "qr code analysis",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "qrcodeanalysis",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

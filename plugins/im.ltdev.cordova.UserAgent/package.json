@@ -1,0 +1,40 @@
+{
+  "_from": "git+https://github.com/LouisT/cordova-useragent.git",
+  "_id": "cordova-useragent@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-useragent",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/LouisT/cordova-useragent",
+    "rawSpec": "https://github.com/LouisT/cordova-useragent",
+    "saveSpec": "git+https://github.com/LouisT/cordova-useragent.git",
+    "fetchSpec": "https://github.com/LouisT/cordova-useragent.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/LouisT/cordova-useragent.git#58bf959f02510e26561de56ca3338625a9fc0a64",
+  "_spec": "https://github.com/LouisT/cordova-useragent",
+  "_where": "/Users/lizhaowen/work/native-shell",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "im.ltdev.cordova.UserAgent",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for reading/changing the user agent of WebView client",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "useragent"
+  ],
+  "name": "cordova-useragent",
+  "version": "1.0.0"
+}

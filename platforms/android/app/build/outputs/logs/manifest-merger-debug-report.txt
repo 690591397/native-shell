@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:12:127-180
+manifest
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2d4a358979e815ddf57bc8b40e545071/AndroidManifest.xml:17:1-22:12
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:17:1-33:12
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2f7b5026908ce072fc623b903268123b/AndroidManifest.xml:17:1-22:12
+MERGED from [:CordovaLib] /Users/lizhaowen/work/native-shell/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6a4d1a2831e7d0f5f1538581a8b62d14/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d97dca1df097da4ef151462768d5d075/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/443588e7f2b7ee5fab7c9c03e78e37e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/48d3bbd2b5a2cf1cf1cee54ae6483341/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ce8b1622128ab0c13d9dd0196868e8fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/1b51d9487bee6fc8101ce093945cd17c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3ba8ef2b27c77e0dbf8cd51fa28cef42/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/896b3c6987eca3f9fc84f73bb9a20d44/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46ca54aab7d68fe3bcb391114f3aea32/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/86cd5eabfef14a34243beb493726e7fa/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/09769b908c79619a1e8fda40b96f741d/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:102-135
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:74-101
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:136-194
+	android:versionCode
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:2:46-73
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:5:5-15:19
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:24:5-31:19
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:24:5-31:19
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:22:5-29:19
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:22:5-29:19
+	android:supportsRtl
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:5:53-80
+activity#io.cordova.hellocordova.MainActivity
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
+uses-sdk
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:16:5-74
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2d4a358979e815ddf57bc8b40e545071/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/2d4a358979e815ddf57bc8b40e545071/AndroidManifest.xml:20:5-44
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:20:5-22:41
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:7:5-9:41
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2f7b5026908ce072fc623b903268123b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2f7b5026908ce072fc623b903268123b/AndroidManifest.xml:20:5-44
+MERGED from [:CordovaLib] /Users/lizhaowen/work/native-shell/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] /Users/lizhaowen/work/native-shell/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6a4d1a2831e7d0f5f1538581a8b62d14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6a4d1a2831e7d0f5f1538581a8b62d14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d97dca1df097da4ef151462768d5d075/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d97dca1df097da4ef151462768d5d075/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/443588e7f2b7ee5fab7c9c03e78e37e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/443588e7f2b7ee5fab7c9c03e78e37e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/48d3bbd2b5a2cf1cf1cee54ae6483341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/48d3bbd2b5a2cf1cf1cee54ae6483341/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ce8b1622128ab0c13d9dd0196868e8fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/ce8b1622128ab0c13d9dd0196868e8fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/1b51d9487bee6fc8101ce093945cd17c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/1b51d9487bee6fc8101ce093945cd17c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3ba8ef2b27c77e0dbf8cd51fa28cef42/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3ba8ef2b27c77e0dbf8cd51fa28cef42/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/896b3c6987eca3f9fc84f73bb9a20d44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/896b3c6987eca3f9fc84f73bb9a20d44/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46ca54aab7d68fe3bcb391114f3aea32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/46ca54aab7d68fe3bcb391114f3aea32/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/86cd5eabfef14a34243beb493726e7fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/86cd5eabfef14a34243beb493726e7fa/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/09769b908c79619a1e8fda40b96f741d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/09769b908c79619a1e8fda40b96f741d/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:16:42-71
+	android:minSdkVersion
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:17:5-81
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:20:5-81
+MERGED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:17:22-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from /Users/lizhaowen/work/native-shell/platforms/android/app/src/main/AndroidManifest.xml:13:24-74
+activity#com.yanzhenjie.permission.PermissionActivity
+ADDED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:25:9-30:75
+	android:launchMode
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:28:13-42
+	android:windowSoftInputMode
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:30:13-72
+	android:configChanges
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:29:13-65
+	android:name
+		ADDED from [com.yanzhenjie:permission:2.0.0-rc4] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/permission-2.0.0-rc4.aar/aea296c8ef38cf699b46f1520ba1fccc/AndroidManifest.xml:26:13-72
+uses-permission#android.permission.CAMERA
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:11:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:12:5-69
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:12:22-66
+uses-feature#android.hardware.camera
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:15:19-67
+uses-permission#android.permission.VIBRATE
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:17:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:18:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:19:22-77
+activity#com.yzq.zxinglibrary.android.CaptureActivity
+ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:23:9-28:67
+	android:screenOrientation
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:26:13-49
+	android:windowSoftInputMode
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:28:13-64
+	android:configChanges
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:25:13-59
+	android:theme
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:27:13-63
+	android:name
+		ADDED from [:zxinglibrary-debug:] /Users/lizhaowen/.gradle/caches/transforms-1/files-1.1/zxinglibrary-debug.aar/f40adb7c07bdfa7f6e97994692aea420/AndroidManifest.xml:24:13-72

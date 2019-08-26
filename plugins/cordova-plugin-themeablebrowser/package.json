@@ -1,0 +1,73 @@
+{
+  "_from": "copy.themeablebrowser",
+  "_id": "copy.themeablebrowser@0.2.17",
+  "_inBundle": false,
+  "_integrity": "sha512-hrRZbga+Cgyb03zZDJ/mfB6pY8rYuQGf//lyvHWiLjiTeRc58K+DrU4HP3QcoOBFL8csrodkJ/HDR+zijzUq4w==",
+  "_location": "/copy.themeablebrowser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "copy.themeablebrowser",
+    "name": "copy.themeablebrowser",
+    "escapedName": "copy.themeablebrowser",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/copy.themeablebrowser/-/copy.themeablebrowser-0.2.17.tgz",
+  "_shasum": "8af265b6593a2f97316466bd34ff800a196d04b6",
+  "_spec": "copy.themeablebrowser",
+  "_where": "/Users/lizhaowen/work/native-shell",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/initialxy/cordova-plugin-themeablebrowser/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-themeablebrowser",
+    "platforms": [
+      "android",
+      "amazon-fireos",
+      "ubuntu",
+      "ios",
+      "wp7",
+      "wp8",
+      "windows8",
+      "windows",
+      "firefoxos"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova ThemeableBrowser Plugin",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.1.0"
+    }
+  ],
+  "homepage": "https://github.com/initialxy/cordova-plugin-themeablebrowser#readme",
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "themeablebrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache 2.0",
+  "name": "copy.themeablebrowser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initialxy/cordova-plugin-themeablebrowser.git"
+  },
+  "version": "0.2.17"
+}

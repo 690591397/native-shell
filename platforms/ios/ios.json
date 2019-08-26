@@ -1,0 +1,220 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"StatusBar\"><param name=\"ios-package\" value=\"CDVStatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarStyle\" value=\"lightcontent\" />",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"ThemeableBrowser\"><param name=\"ios-package\" value=\"CDVThemeableBrowser\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"UserAgent\"><param name=\"ios-package\" value=\"UserAgent\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"qrcodeanalysis\"><param name=\"ios-package\" value=\"qrcodeanalysis\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"awsca\"><param name=\"ios-package\" value=\"awsca\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSPhotoLibraryUsageDescription": [
+            {
+              "xml": "<string>App需要您的同意,才能访问相册</string>",
+              "count": 1
+            }
+          ],
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string>App需要您的同意,才能访问相机</string>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-backbutton": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-themeablebrowser": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "im.ltdev.cordova.UserAgent": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "org.lee.cordova.qrcodeanalysis": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "awsca": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-backbutton.Backbutton",
+      "file": "plugins/cordova-plugin-backbutton/www/Backbutton.js",
+      "pluginId": "cordova-plugin-backbutton",
+      "clobbers": [
+        "navigator.Backbutton"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.Camera",
+      "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "Camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverOptions",
+      "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverOptions"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.camera",
+      "file": "plugins/cordova-plugin-camera/www/Camera.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "navigator.camera"
+      ]
+    },
+    {
+      "id": "cordova-plugin-camera.CameraPopoverHandle",
+      "file": "plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js",
+      "pluginId": "cordova-plugin-camera",
+      "clobbers": [
+        "CameraPopoverHandle"
+      ]
+    },
+    {
+      "id": "cordova-plugin-inappbrowser.inappbrowser",
+      "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+      "pluginId": "cordova-plugin-inappbrowser",
+      "clobbers": [
+        "cordova.InAppBrowser.open",
+        "window.open"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-statusbar.statusbar",
+      "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+      "pluginId": "cordova-plugin-statusbar",
+      "clobbers": [
+        "window.StatusBar"
+      ]
+    },
+    {
+      "id": "cordova-plugin-themeablebrowser.themeablebrowser",
+      "file": "plugins/cordova-plugin-themeablebrowser/www/themeablebrowser.js",
+      "pluginId": "cordova-plugin-themeablebrowser",
+      "clobbers": [
+        "cordova.ThemeableBrowser"
+      ]
+    },
+    {
+      "id": "im.ltdev.cordova.UserAgent.UserAgent",
+      "file": "plugins/im.ltdev.cordova.UserAgent/www/UserAgent.js",
+      "pluginId": "im.ltdev.cordova.UserAgent",
+      "clobbers": [
+        "UserAgent"
+      ]
+    },
+    {
+      "id": "org.lee.cordova.qrcodeanalysis.qrcodeanalysis",
+      "file": "plugins/org.lee.cordova.qrcodeanalysis/www/qrcodeanalysis.js",
+      "pluginId": "org.lee.cordova.qrcodeanalysis",
+      "clobbers": [
+        "cordova.plugins.qrcodeanalysis"
+      ]
+    },
+    {
+      "id": "awsca.awsca",
+      "file": "plugins/awsca/www/awsca.js",
+      "pluginId": "awsca",
+      "clobbers": [
+        "cordova.plugins.awsca"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-backbutton": "0.3.0",
+    "cordova-plugin-camera": "4.1.0",
+    "cordova-plugin-inappbrowser": "3.0.0",
+    "cordova-plugin-splashscreen": "5.0.3",
+    "cordova-plugin-statusbar": "2.4.3",
+    "cordova-plugin-themeablebrowser": "0.2.17",
+    "cordova-plugin-whitelist": "1.3.4",
+    "im.ltdev.cordova.UserAgent": "0.1.0",
+    "org.lee.cordova.qrcodeanalysis": "1.0.0",
+    "awsca": "1.0.0"
+  }
+}
